@@ -21,6 +21,11 @@ h1 {
     letter-spacing: 5px;
     color: #d9d9d9;
     font-size: 350%;
+    display: block;
+}
+
+h2 {
+    display: block;
 }
 
 #about-section-heading {
@@ -120,22 +125,24 @@ h1 {
 
 /* about section */
 #about-section {    
+    display: block;
     padding: 50px 150px;
     height: 300px;
-    font-size: medium;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 35px;
 
-}#here-button {
+}.text-button {
     
     color: inherit;
 }
 
-#here-button:hover {
+.text-button:hover {
     background-color: #d9d9d9;
     color: #1a1a1a;
     font-size: 100%;
     font-weight: bold;    
 }
+
 
 
 
