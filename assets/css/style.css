@@ -15,22 +15,31 @@ body {
 
 /* headings and logo */
 
-h1,
-h2 {
+h1 {
     font-family: Nunito sans, Sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #d9d9d9;
 }
 
+#about-section {
+    text-align: center;
+}
+
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 300%;
+}
+
+#logo:hover{
+    background-color: #d9d9d9;
+    color: #1a1a1a;
+    background-size: cover;
 }
 
 /* nav links */
 #menu {
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: 5px;
     display: flex;
     flex-direction: row-reverse;
@@ -91,14 +100,14 @@ h2 {
     width: 100%;
     background: url('../images/hero-image.jpeg') no-repeat center center;
 
-    /* animation zoom effect on homepage load */
+    /* animation zoom out effect on homepage load */
 
     animation-name: hero-zoom;
     animation-duration: 10s;
-    animation-fill-mode; forwards;
+    animation-fill-mode: forwards;
 }
 
-/* create zoom for hero imagea */
+/* create zoom out for hero image */
 
 @keyframes hero-zoom {
     from{
