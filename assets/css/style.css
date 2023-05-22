@@ -80,3 +80,30 @@ h2 {
     order: 1;
 }
 
+/* hero image */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
+
+    /* animation zoom effect on homepage load */
+
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode; forwards;
+}
+
+/* create zoom for hero imagea */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{ transform: scale(1);
+    }
+}
