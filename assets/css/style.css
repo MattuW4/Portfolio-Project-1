@@ -9,7 +9,8 @@
 body {
     font-family: Nunito sans, Sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
+    color: #d9d9d9;
+    background-color: #1a1a1a;
 }
 
 /* headings and logo */
@@ -25,4 +26,56 @@ h2 {
 #logo {
     float: left;
     font-size: 250%;
+}
+
+/* nav links */
+#menu {
+    font-size: 100%;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-transform: uppercase;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    background-color: #d9d9d9;
+    color: #1a1a1a;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.underline {
+    border-bottom: 3px solid #d9d9d9;
+}
+
+.underline:hover {
+    border-color: #1a1a1a;
+}
+
+#li-one {
+    order: 3;
+}
+
+#li-two {
+    order: 2;
+}
+
+#li-three {
+    order: 1;
 }
