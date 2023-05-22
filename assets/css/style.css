@@ -20,9 +20,10 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #d9d9d9;
+    font-size: 250%;
 }
 
-#about-section {
+#about-section-heading {
     text-align: center;
 }
 
@@ -115,4 +116,10 @@ h1 {
     }
     to{ transform: scale(1);
     }
+}
+
+/* about section */
+#about-section p{
+    
+    padding: 0px 150px;
 }
