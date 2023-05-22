@@ -127,18 +127,18 @@ h2 {
     }
 }
 
-/* about section */
-#about-section {
+/* front page section styling */
+
+.front-section {
     display: block;
     padding: 50px 150px;
     height: 300px;
     font-size: 20px;
     line-height: 35px;
-
 }
 
+/* about section button*/
 .text-button {
-
     color: inherit;
 }
 
@@ -152,6 +152,8 @@ h2 {
 /* mailing list form in about section */
 
 .fields{
-    font-size: inherit;
-    
+    font-size: inherit;    
 }
+
+
+
