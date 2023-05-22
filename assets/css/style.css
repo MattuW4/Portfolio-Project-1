@@ -26,6 +26,10 @@ h1 {
 
 h2 {
     display: block;
+    width: 80%;
+    font-size: 40px;
+    line-height: 35px;
+    float: left;
 }
 
 #about-section-heading {
@@ -49,8 +53,7 @@ h2 {
     letter-spacing: 5px;
     display: flex;
     flex-direction: row-reverse;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
 
 #menu,
@@ -121,7 +124,6 @@ h2 {
     from {
         transform: scale(1.1);
     }
-
     to {
         transform: scale(1);
     }
@@ -133,8 +135,10 @@ h2 {
     display: block;
     padding: 50px 150px;
     height: 300px;
+    width: 80%;
     font-size: 20px;
     line-height: 35px;
+    float: left;
 }
 
 /* about section button*/
@@ -150,10 +154,26 @@ h2 {
 }
 
 /* mailing list form in about section */
-
+#form-style{
+    display: block;
+    width: 80%;
+    height: 300px;
+    font-size: 20px;
+    line-height: 35px;
+    float: left;
+    padding: 0px 150px;
+}
 .fields{
     font-size: inherit;    
 }
 
 
 
+/* calendar background styling */
+
+.calendar {
+    width: 20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
