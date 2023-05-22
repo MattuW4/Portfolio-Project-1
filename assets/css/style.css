@@ -119,10 +119,11 @@ h1 {
 }
 
 /* about section */
-#about-section p{    
+#about-section {    
     padding: 50px 150px;
     height: 300px;
     font-size: medium;
+    line-height: 30px;
 
 }#here-button {
     
